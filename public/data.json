@@ -1,0 +1,2427 @@
+[
+  {
+    "sha": "b264ec0a9aeeb2c8ea7ff295525c289eea9d2d4c",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OmIyNjRlYzBhOWFlZWIyYzhlYTdmZjI5NTUyNWMyODllZWE5ZDJkNGM=",
+    "commit": {
+      "author": {
+        "name": "MalgorzataWisniewska",
+        "email": "50334377+MalgorzataWisniewska@users.noreply.github.com",
+        "date": "2020-01-09T18:52:41Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-01-09T18:52:41Z"
+      },
+      "message": "Merge pull request #55 from infoshareacademy/FZ12NP-19\n\nadding a narrowing menu and corect language show error",
+      "tree": {
+        "sha": "1bd60e61a40d98286a001a09e1b1075c3c02a8ff",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/1bd60e61a40d98286a001a09e1b1075c3c02a8ff"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/b264ec0a9aeeb2c8ea7ff295525c289eea9d2d4c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeF3Z5CRBK7hj4Ov3rIwAAdHIIACunF03g+T+OhJ5H6Qhcxbe0\nV8gQXM1aHzxU78LLgVuzcpoaPlzhMRQ3HwZJyNYzi4Dajjg2/GF40Z7WDdu0hTnz\nleTcfp26KNe0Efyb6AAm/Y5J9dE4OtSajpBJc6Kg8NGW1p2GK+Dpn38CXagReW+1\neAv9aZuSOY+svqwbILP6B3xgQKF7CTOnwhnWrgSBGIwnBHxh6KH11a2h1Qssld9T\nNdG8whgvtkuWXtVt3xIU+vZuTdbOSJjdt6vjRz9Z7JB3/SBTq4LyhjmES6h0Tljk\nzF32dEYAOOOhCAcwksC5waAbdSdSZ3NtqwzzyjRa8+E75df2/afF7w1F/9Fdu9A=\n=zUdM\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1bd60e61a40d98286a001a09e1b1075c3c02a8ff\nparent 6cc4be88a897cbe733c8e69b061b85a0ca97cdce\nparent fa79548c45a5d1b6f4051e7700132eea98ff2c33\nauthor MalgorzataWisniewska <50334377+MalgorzataWisniewska@users.noreply.github.com> 1578595961 +0100\ncommitter GitHub <noreply@github.com> 1578595961 +0100\n\nMerge pull request #55 from infoshareacademy/FZ12NP-19\n\nadding a narrowing menu and corect language show error"
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b264ec0a9aeeb2c8ea7ff295525c289eea9d2d4c",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/b264ec0a9aeeb2c8ea7ff295525c289eea9d2d4c",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b264ec0a9aeeb2c8ea7ff295525c289eea9d2d4c/comments",
+    "author": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6cc4be88a897cbe733c8e69b061b85a0ca97cdce",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/6cc4be88a897cbe733c8e69b061b85a0ca97cdce",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/6cc4be88a897cbe733c8e69b061b85a0ca97cdce"
+      },
+      {
+        "sha": "fa79548c45a5d1b6f4051e7700132eea98ff2c33",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/fa79548c45a5d1b6f4051e7700132eea98ff2c33",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/fa79548c45a5d1b6f4051e7700132eea98ff2c33"
+      }
+    ]
+  },
+  {
+    "sha": "fa79548c45a5d1b6f4051e7700132eea98ff2c33",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OmZhNzk1NDhjNDVhNWQxYjZmNDA1MWU3NzAwMTMyZWVhOThmZjJjMzM=",
+    "commit": {
+      "author": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2020-01-09T12:32:23Z"
+      },
+      "committer": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2020-01-09T12:32:23Z"
+      },
+      "message": "adding a narrowing menu and corect language show error",
+      "tree": {
+        "sha": "1bd60e61a40d98286a001a09e1b1075c3c02a8ff",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/1bd60e61a40d98286a001a09e1b1075c3c02a8ff"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/fa79548c45a5d1b6f4051e7700132eea98ff2c33",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/fa79548c45a5d1b6f4051e7700132eea98ff2c33",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/fa79548c45a5d1b6f4051e7700132eea98ff2c33",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/fa79548c45a5d1b6f4051e7700132eea98ff2c33/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b617fe226ab1137c0fb7dee69d680552e06c91fb",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b617fe226ab1137c0fb7dee69d680552e06c91fb",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/b617fe226ab1137c0fb7dee69d680552e06c91fb"
+      }
+    ]
+  },
+  {
+    "sha": "6cc4be88a897cbe733c8e69b061b85a0ca97cdce",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjZjYzRiZTg4YTg5N2NiZTczM2M4ZTY5YjA2MWI4NWEwY2E5N2NkY2U=",
+    "commit": {
+      "author": {
+        "name": "MalgorzataWisniewska",
+        "email": "50334377+MalgorzataWisniewska@users.noreply.github.com",
+        "date": "2019-12-08T18:05:28Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-12-08T18:05:28Z"
+      },
+      "message": "Merge pull request #54 from infoshareacademy/FZ12NP-19\n\nfix set default lang",
+      "tree": {
+        "sha": "fe119dc6da531f73c84316f65cd06a46bf4833f4",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/fe119dc6da531f73c84316f65cd06a46bf4833f4"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/6cc4be88a897cbe733c8e69b061b85a0ca97cdce",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJd7TtoCRBK7hj4Ov3rIwAAdHIIAHWT/PwKJoVWgSnlKXwYkLMk\nR/doyLp86QeDOBXI/cLBwBsllH8FaG/6zl7UN17pSpQR7gSlGcl3g47fPjgNag3a\nr21dHsaGoP10+nDZQv86+7FHRtpayE96ayqaD7WH4vwCUGHtBn5EwYWErmVJYUQA\nIMZmmpEIpIAhtZNr194aaSFqAB0r584fTyqwW03JXhHI7aBL9J0EiU2tVcfWmW5f\nZV+W8wnjYU0GoO91tgsRVtKU+GCXvk35MWlnG6D+6zU8k2h79l+CY9l+DaCyfrOE\n2S323kECFM0FjTno1xarUkMEnAiStjjrCF0c5Vwfuo6HKd83pw3HgkdvzhaZxuk=\n=rgzV\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fe119dc6da531f73c84316f65cd06a46bf4833f4\nparent 162e80a133b000022f3763372cb0bfe1184429fc\nparent b617fe226ab1137c0fb7dee69d680552e06c91fb\nauthor MalgorzataWisniewska <50334377+MalgorzataWisniewska@users.noreply.github.com> 1575828328 +0100\ncommitter GitHub <noreply@github.com> 1575828328 +0100\n\nMerge pull request #54 from infoshareacademy/FZ12NP-19\n\nfix set default lang"
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/6cc4be88a897cbe733c8e69b061b85a0ca97cdce",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/6cc4be88a897cbe733c8e69b061b85a0ca97cdce",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/6cc4be88a897cbe733c8e69b061b85a0ca97cdce/comments",
+    "author": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "162e80a133b000022f3763372cb0bfe1184429fc",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/162e80a133b000022f3763372cb0bfe1184429fc",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/162e80a133b000022f3763372cb0bfe1184429fc"
+      },
+      {
+        "sha": "b617fe226ab1137c0fb7dee69d680552e06c91fb",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b617fe226ab1137c0fb7dee69d680552e06c91fb",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/b617fe226ab1137c0fb7dee69d680552e06c91fb"
+      }
+    ]
+  },
+  {
+    "sha": "b617fe226ab1137c0fb7dee69d680552e06c91fb",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OmI2MTdmZTIyNmFiMTEzN2MwZmI3ZGVlNjlkNjgwNTUyZTA2YzkxZmI=",
+    "commit": {
+      "author": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-12-08T09:15:35Z"
+      },
+      "committer": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-12-08T09:15:35Z"
+      },
+      "message": "fix set default lang",
+      "tree": {
+        "sha": "fe119dc6da531f73c84316f65cd06a46bf4833f4",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/fe119dc6da531f73c84316f65cd06a46bf4833f4"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/b617fe226ab1137c0fb7dee69d680552e06c91fb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b617fe226ab1137c0fb7dee69d680552e06c91fb",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/b617fe226ab1137c0fb7dee69d680552e06c91fb",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b617fe226ab1137c0fb7dee69d680552e06c91fb/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b1a95847ba548a4209277721e5241a8b3dd20bdf",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b1a95847ba548a4209277721e5241a8b3dd20bdf",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/b1a95847ba548a4209277721e5241a8b3dd20bdf"
+      }
+    ]
+  },
+  {
+    "sha": "162e80a133b000022f3763372cb0bfe1184429fc",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjE2MmU4MGExMzNiMDAwMDIyZjM3NjMzNzJjYjBiZmUxMTg0NDI5ZmM=",
+    "commit": {
+      "author": {
+        "name": "MalgorzataWisniewska",
+        "email": "50334377+MalgorzataWisniewska@users.noreply.github.com",
+        "date": "2019-12-07T14:31:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-12-07T14:31:57Z"
+      },
+      "message": "Merge pull request #53 from infoshareacademy/FZ12NP-19\n\nFz12 np 19",
+      "tree": {
+        "sha": "868aba9c4e9cff60004869b0b7c3b4a120e696f7",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/868aba9c4e9cff60004869b0b7c3b4a120e696f7"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/162e80a133b000022f3763372cb0bfe1184429fc",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJd67fdCRBK7hj4Ov3rIwAAdHIIAF/geQlMYZlHTCQbyTVpppIA\niXoha8fatfSkgiThTF5rWs40+/iEdDIpMjn0nBuxgWUKqlTY0F/Ns/agVcME4+1L\nGy6aS7zMKb3SGv0hNU7AzLkXN0IxcI5NuqIw1D8+SZIPgowh/t6PRbA1vxsnkF4B\nTqp/bgezqDSW0XMcmrtnZhdXoos9n6ybb341Ws0/udveDNC0T8YWRilAon5j6Mbx\n1w0HvI+B1otEaVK4OiUe5HDEq1iN9Kfhv3hqn2ZKog6/2N7Yr0FPsi+JCj/fohsE\nZIbDLolmPIdlVTcmtC8qEL3b8QR/1jU6BXldauoF5s2EJ4Ax6/drFS3sGZQCHFk=\n=Eqs5\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 868aba9c4e9cff60004869b0b7c3b4a120e696f7\nparent 31ec5849b1063d12079d3da162892ac67a61ff52\nparent b1a95847ba548a4209277721e5241a8b3dd20bdf\nauthor MalgorzataWisniewska <50334377+MalgorzataWisniewska@users.noreply.github.com> 1575729117 +0100\ncommitter GitHub <noreply@github.com> 1575729117 +0100\n\nMerge pull request #53 from infoshareacademy/FZ12NP-19\n\nFz12 np 19"
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/162e80a133b000022f3763372cb0bfe1184429fc",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/162e80a133b000022f3763372cb0bfe1184429fc",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/162e80a133b000022f3763372cb0bfe1184429fc/comments",
+    "author": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "31ec5849b1063d12079d3da162892ac67a61ff52",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/31ec5849b1063d12079d3da162892ac67a61ff52",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/31ec5849b1063d12079d3da162892ac67a61ff52"
+      },
+      {
+        "sha": "b1a95847ba548a4209277721e5241a8b3dd20bdf",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b1a95847ba548a4209277721e5241a8b3dd20bdf",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/b1a95847ba548a4209277721e5241a8b3dd20bdf"
+      }
+    ]
+  },
+  {
+    "sha": "b1a95847ba548a4209277721e5241a8b3dd20bdf",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OmIxYTk1ODQ3YmE1NDhhNDIwOTI3NzcyMWU1MjQxYThiM2RkMjBiZGY=",
+    "commit": {
+      "author": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-12-04T21:31:15Z"
+      },
+      "committer": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-12-04T21:33:34Z"
+      },
+      "message": "add next language and save choosed lang to local storage",
+      "tree": {
+        "sha": "868aba9c4e9cff60004869b0b7c3b4a120e696f7",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/868aba9c4e9cff60004869b0b7c3b4a120e696f7"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/b1a95847ba548a4209277721e5241a8b3dd20bdf",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b1a95847ba548a4209277721e5241a8b3dd20bdf",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/b1a95847ba548a4209277721e5241a8b3dd20bdf",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b1a95847ba548a4209277721e5241a8b3dd20bdf/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "047f0694e70a74efdf602936fbabdbf67369e389",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/047f0694e70a74efdf602936fbabdbf67369e389",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/047f0694e70a74efdf602936fbabdbf67369e389"
+      }
+    ]
+  },
+  {
+    "sha": "047f0694e70a74efdf602936fbabdbf67369e389",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjA0N2YwNjk0ZTcwYTc0ZWZkZjYwMjkzNmZiYWJkYmY2NzM2OWUzODk=",
+    "commit": {
+      "author": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-12-04T20:04:43Z"
+      },
+      "committer": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-12-04T20:04:43Z"
+      },
+      "message": "remove unused variable",
+      "tree": {
+        "sha": "d665f1ef428fa0ec6cd9d6bd33b8295787087e3d",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/d665f1ef428fa0ec6cd9d6bd33b8295787087e3d"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/047f0694e70a74efdf602936fbabdbf67369e389",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/047f0694e70a74efdf602936fbabdbf67369e389",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/047f0694e70a74efdf602936fbabdbf67369e389",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/047f0694e70a74efdf602936fbabdbf67369e389/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "28c443c7990a3791e90510bfa180f4acd69aba78",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/28c443c7990a3791e90510bfa180f4acd69aba78",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/28c443c7990a3791e90510bfa180f4acd69aba78"
+      }
+    ]
+  },
+  {
+    "sha": "28c443c7990a3791e90510bfa180f4acd69aba78",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjI4YzQ0M2M3OTkwYTM3OTFlOTA1MTBiZmExODBmNGFjZDY5YWJhNzg=",
+    "commit": {
+      "author": {
+        "name": "DamianMilecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-12-04T17:48:38Z"
+      },
+      "committer": {
+        "name": "DamianMilecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-12-04T17:48:38Z"
+      },
+      "message": "modify subtext email function for accept multilanguage",
+      "tree": {
+        "sha": "9a83a48cedf39eb88f857c5e68e44a22bf11d1a7",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/9a83a48cedf39eb88f857c5e68e44a22bf11d1a7"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/28c443c7990a3791e90510bfa180f4acd69aba78",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/28c443c7990a3791e90510bfa180f4acd69aba78",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/28c443c7990a3791e90510bfa180f4acd69aba78",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/28c443c7990a3791e90510bfa180f4acd69aba78/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "97a5274272a9540f68b0e4d6fddfbe992f906d69",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/97a5274272a9540f68b0e4d6fddfbe992f906d69",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/97a5274272a9540f68b0e4d6fddfbe992f906d69"
+      }
+    ]
+  },
+  {
+    "sha": "97a5274272a9540f68b0e4d6fddfbe992f906d69",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2Ojk3YTUyNzQyNzJhOTU0MGY2OGIwZTRkNmZkZGZiZTk5MmY5MDZkNjk=",
+    "commit": {
+      "author": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-12-03T23:56:02Z"
+      },
+      "committer": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-12-03T23:56:02Z"
+      },
+      "message": "add lang button",
+      "tree": {
+        "sha": "ef32c6c40d7f2acdc320dd3d807e3edbeb38e54e",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/ef32c6c40d7f2acdc320dd3d807e3edbeb38e54e"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/97a5274272a9540f68b0e4d6fddfbe992f906d69",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/97a5274272a9540f68b0e4d6fddfbe992f906d69",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/97a5274272a9540f68b0e4d6fddfbe992f906d69",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/97a5274272a9540f68b0e4d6fddfbe992f906d69/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1f7ffd041c020d3eca9f548d195d8ebba3697d64",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/1f7ffd041c020d3eca9f548d195d8ebba3697d64",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/1f7ffd041c020d3eca9f548d195d8ebba3697d64"
+      }
+    ]
+  },
+  {
+    "sha": "1f7ffd041c020d3eca9f548d195d8ebba3697d64",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjFmN2ZmZDA0MWMwMjBkM2VjYTlmNTQ4ZDE5NWQ4ZWJiYTM2OTdkNjQ=",
+    "commit": {
+      "author": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-12-02T23:06:48Z"
+      },
+      "committer": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-12-02T23:06:48Z"
+      },
+      "message": "add changeLang function",
+      "tree": {
+        "sha": "b0f1ec738a18cc6a2fc53a518f6d8b040849a008",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/b0f1ec738a18cc6a2fc53a518f6d8b040849a008"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/1f7ffd041c020d3eca9f548d195d8ebba3697d64",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/1f7ffd041c020d3eca9f548d195d8ebba3697d64",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/1f7ffd041c020d3eca9f548d195d8ebba3697d64",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/1f7ffd041c020d3eca9f548d195d8ebba3697d64/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "31ec5849b1063d12079d3da162892ac67a61ff52",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/31ec5849b1063d12079d3da162892ac67a61ff52",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/31ec5849b1063d12079d3da162892ac67a61ff52"
+      }
+    ]
+  },
+  {
+    "sha": "31ec5849b1063d12079d3da162892ac67a61ff52",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjMxZWM1ODQ5YjEwNjNkMTIwNzlkM2RhMTYyODkyYWM2N2E2MWZmNTI=",
+    "commit": {
+      "author": {
+        "name": "DamianMilecki",
+        "email": "53488157+DamianMilecki@users.noreply.github.com",
+        "date": "2019-11-17T12:23:11Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-11-17T12:23:11Z"
+      },
+      "message": "Merge pull request #52 from infoshareacademy/FZ12NP-14a\n\ninterval in instruction modal height changed",
+      "tree": {
+        "sha": "24fcada7250e117ef307f45fb5b02a14c2d99116",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/24fcada7250e117ef307f45fb5b02a14c2d99116"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/31ec5849b1063d12079d3da162892ac67a61ff52",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJd0TuvCRBK7hj4Ov3rIwAAdHIIADjazG0jWB85E9L9kO0/Kl9f\ngxItrYEUxwaNaC3mNHia93Za0YwR9dslFSaeLeYWL/Y1fxUaiZirfkMIFg/uDHMD\nBlMH2t2uOtg5515cIbIwNjkwwZ7cVu7DkfhvKoMeyND85QG5veLzZh7twzd2no2b\ny13BQLxwcpqJzbqkKjpnlpJXvbxZrUcD2FXMSsh6UVoQoFbXNGGMVC+r45uBMMgV\naaRTHPZh2dpGDjzJm0p1lmqMnNCIwVnOhdXOymEAYd1iBJy7VZutR/HcrWElGf8+\nLQRXgRjlnyueWenn6367MeZW46ncsZsJlNd5XF+YIVFYf/B542rXqxrssSMEUPI=\n=O/kf\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 24fcada7250e117ef307f45fb5b02a14c2d99116\nparent c0d7a3154667819f7cc71d53de0d23fdc7ac294e\nparent 58804420527d63ea849fe71218108abef96138fe\nauthor DamianMilecki <53488157+DamianMilecki@users.noreply.github.com> 1573993391 +0100\ncommitter GitHub <noreply@github.com> 1573993391 +0100\n\nMerge pull request #52 from infoshareacademy/FZ12NP-14a\n\ninterval in instruction modal height changed"
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/31ec5849b1063d12079d3da162892ac67a61ff52",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/31ec5849b1063d12079d3da162892ac67a61ff52",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/31ec5849b1063d12079d3da162892ac67a61ff52/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c0d7a3154667819f7cc71d53de0d23fdc7ac294e",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/c0d7a3154667819f7cc71d53de0d23fdc7ac294e",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/c0d7a3154667819f7cc71d53de0d23fdc7ac294e"
+      },
+      {
+        "sha": "58804420527d63ea849fe71218108abef96138fe",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/58804420527d63ea849fe71218108abef96138fe",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/58804420527d63ea849fe71218108abef96138fe"
+      }
+    ]
+  },
+  {
+    "sha": "58804420527d63ea849fe71218108abef96138fe",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjU4ODA0NDIwNTI3ZDYzZWE4NDlmZTcxMjE4MTA4YWJlZjk2MTM4ZmU=",
+    "commit": {
+      "author": {
+        "name": "MalgorzataWisniewska",
+        "email": "mwisniewska@interia.eu",
+        "date": "2019-11-17T11:24:26Z"
+      },
+      "committer": {
+        "name": "MalgorzataWisniewska",
+        "email": "mwisniewska@interia.eu",
+        "date": "2019-11-17T11:24:26Z"
+      },
+      "message": "content modal goes up and then grows",
+      "tree": {
+        "sha": "5b0c4dd113662a10846315d311f666fcfac3cc18",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/5b0c4dd113662a10846315d311f666fcfac3cc18"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/58804420527d63ea849fe71218108abef96138fe",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/58804420527d63ea849fe71218108abef96138fe",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/58804420527d63ea849fe71218108abef96138fe",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/58804420527d63ea849fe71218108abef96138fe/comments",
+    "author": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b0b45f785f79f7068cbdd755db980f87471f4802",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b0b45f785f79f7068cbdd755db980f87471f4802",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/b0b45f785f79f7068cbdd755db980f87471f4802"
+      }
+    ]
+  },
+  {
+    "sha": "c0d7a3154667819f7cc71d53de0d23fdc7ac294e",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OmMwZDdhMzE1NDY2NzgxOWY3Y2M3MWQ1M2RlMGQyM2ZkYzdhYzI5NGU=",
+    "commit": {
+      "author": {
+        "name": "MalgorzataWisniewska",
+        "email": "50334377+MalgorzataWisniewska@users.noreply.github.com",
+        "date": "2019-11-17T10:44:41Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-11-17T10:44:41Z"
+      },
+      "message": "Merge pull request #51 from infoshareacademy/FZ12NP-18-Damian\n\nadd flow back to top button",
+      "tree": {
+        "sha": "a9d6c7745b5d37a483fcbf389cb97ffbed2b356d",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/a9d6c7745b5d37a483fcbf389cb97ffbed2b356d"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/c0d7a3154667819f7cc71d53de0d23fdc7ac294e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJd0SSZCRBK7hj4Ov3rIwAAdHIIAFcj0G3MJ+B6N+vvPPUjBgn1\nSiVaN0yyU8jx8QBCUZBkboYOHbFxieMrGnL9Aj13iWZk2I7rrhM93zkCNeMhoY7k\nAFd/YvL+3ibl9wLzWRxfuYMeUXQQQArgOtZG9C/pslZdR+zjS5rvGtPJra2Ceoah\n9c4YpcxzlV1ICI3QXDJc5g23Dsj5jDcNdY8WY2PWJ/48onPf4jULJ/wVQzq5sokS\nCcUk2oV7I1WnMN+RULOS6mItgbXE9Yr39nz6mwswzoohEVKCBWGguvs3un0sGza0\nPd2wRfQoT4hzGqys2JSVAbUCYvQ1bLmTIgqCL8MEtNHXt5FZgbhKrW6dBOExj4A=\n=wqrQ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a9d6c7745b5d37a483fcbf389cb97ffbed2b356d\nparent eefb2d489e0b3edfb521a3fb35d9d0230ad81cf3\nparent 9e52a88bfa7fe94354bbe44c46a1e37ac5caa5ef\nauthor MalgorzataWisniewska <50334377+MalgorzataWisniewska@users.noreply.github.com> 1573987481 +0100\ncommitter GitHub <noreply@github.com> 1573987481 +0100\n\nMerge pull request #51 from infoshareacademy/FZ12NP-18-Damian\n\nadd flow back to top button"
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/c0d7a3154667819f7cc71d53de0d23fdc7ac294e",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/c0d7a3154667819f7cc71d53de0d23fdc7ac294e",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/c0d7a3154667819f7cc71d53de0d23fdc7ac294e/comments",
+    "author": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eefb2d489e0b3edfb521a3fb35d9d0230ad81cf3",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/eefb2d489e0b3edfb521a3fb35d9d0230ad81cf3",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/eefb2d489e0b3edfb521a3fb35d9d0230ad81cf3"
+      },
+      {
+        "sha": "9e52a88bfa7fe94354bbe44c46a1e37ac5caa5ef",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/9e52a88bfa7fe94354bbe44c46a1e37ac5caa5ef",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/9e52a88bfa7fe94354bbe44c46a1e37ac5caa5ef"
+      }
+    ]
+  },
+  {
+    "sha": "b0b45f785f79f7068cbdd755db980f87471f4802",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OmIwYjQ1Zjc4NWY3OWY3MDY4Y2JkZDc1NWRiOTgwZjg3NDcxZjQ4MDI=",
+    "commit": {
+      "author": {
+        "name": "MalgorzataWisniewska",
+        "email": "mwisniewska@interia.eu",
+        "date": "2019-11-17T10:39:49Z"
+      },
+      "committer": {
+        "name": "MalgorzataWisniewska",
+        "email": "mwisniewska@interia.eu",
+        "date": "2019-11-17T10:39:49Z"
+      },
+      "message": "interval in instruction modal height changed",
+      "tree": {
+        "sha": "30ca815b22bbb63b2426ca830ea1719730f4a971",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/30ca815b22bbb63b2426ca830ea1719730f4a971"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/b0b45f785f79f7068cbdd755db980f87471f4802",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b0b45f785f79f7068cbdd755db980f87471f4802",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/b0b45f785f79f7068cbdd755db980f87471f4802",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/b0b45f785f79f7068cbdd755db980f87471f4802/comments",
+    "author": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eefb2d489e0b3edfb521a3fb35d9d0230ad81cf3",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/eefb2d489e0b3edfb521a3fb35d9d0230ad81cf3",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/eefb2d489e0b3edfb521a3fb35d9d0230ad81cf3"
+      }
+    ]
+  },
+  {
+    "sha": "9e52a88bfa7fe94354bbe44c46a1e37ac5caa5ef",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjllNTJhODhiZmE3ZmU5NDM1NGJiZTQ0YzQ2YTFlMzdhYzVjYWE1ZWY=",
+    "commit": {
+      "author": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-16T22:35:43Z"
+      },
+      "committer": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-16T22:35:43Z"
+      },
+      "message": "add flow back to top button",
+      "tree": {
+        "sha": "a9d6c7745b5d37a483fcbf389cb97ffbed2b356d",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/a9d6c7745b5d37a483fcbf389cb97ffbed2b356d"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/9e52a88bfa7fe94354bbe44c46a1e37ac5caa5ef",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/9e52a88bfa7fe94354bbe44c46a1e37ac5caa5ef",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/9e52a88bfa7fe94354bbe44c46a1e37ac5caa5ef",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/9e52a88bfa7fe94354bbe44c46a1e37ac5caa5ef/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "028f9641e07af5100bcae804d684f5b3d00fc3ed",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/028f9641e07af5100bcae804d684f5b3d00fc3ed",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/028f9641e07af5100bcae804d684f5b3d00fc3ed"
+      }
+    ]
+  },
+  {
+    "sha": "eefb2d489e0b3edfb521a3fb35d9d0230ad81cf3",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OmVlZmIyZDQ4OWUwYjNlZGZiNTIxYTNmYjM1ZDlkMDIzMGFkODFjZjM=",
+    "commit": {
+      "author": {
+        "name": "MalgorzataWisniewska",
+        "email": "50334377+MalgorzataWisniewska@users.noreply.github.com",
+        "date": "2019-11-16T15:42:15Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-11-16T15:42:15Z"
+      },
+      "message": "Merge pull request #50 from infoshareacademy/FZ12NP-31_komunikaty\n\nadd polish text and fix clearinterval in modal opacity",
+      "tree": {
+        "sha": "4b72dce06f319e86ce124d15702c7b426b08e4bd",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/4b72dce06f319e86ce124d15702c7b426b08e4bd"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/eefb2d489e0b3edfb521a3fb35d9d0230ad81cf3",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJd0BjXCRBK7hj4Ov3rIwAAdHIIAAyHYcmI6HP3o54ajiCRiFmK\nWEFZaa774BZS/+AGGDFEtlO8W+ociphTcomS2l63VEeqMjtj8BrG7lHRL/x5qKj5\nUAafnz27fxZxxnn4lIf5RV7x/YEsx8slbABaB4YfJED2DxAhtWvBRdWasAwSifpT\nm2hxGfCp7w8CAsmtcFKNH82kHPbAK3CXfdBr6ohUvWSFheIHJJ0/vCiTG9u6hkqB\nD2P9IkInRqCWRT4UlwCsO16WM3W6vhfO+Bmmx/pwLVRNxCOUJOizkMp2UybNhXxe\naMHZUSSaD7yCls40LxFsOwi82q33Vlo1oJ8OxpnTmZAtDf4dv+NLnF/wqhDojTw=\n=9tm2\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 4b72dce06f319e86ce124d15702c7b426b08e4bd\nparent 3958b24e753f41c236fcc204302cb545a19f1023\nparent 028f9641e07af5100bcae804d684f5b3d00fc3ed\nauthor MalgorzataWisniewska <50334377+MalgorzataWisniewska@users.noreply.github.com> 1573918935 +0100\ncommitter GitHub <noreply@github.com> 1573918935 +0100\n\nMerge pull request #50 from infoshareacademy/FZ12NP-31_komunikaty\n\nadd polish text and fix clearinterval in modal opacity"
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/eefb2d489e0b3edfb521a3fb35d9d0230ad81cf3",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/eefb2d489e0b3edfb521a3fb35d9d0230ad81cf3",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/eefb2d489e0b3edfb521a3fb35d9d0230ad81cf3/comments",
+    "author": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3958b24e753f41c236fcc204302cb545a19f1023",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/3958b24e753f41c236fcc204302cb545a19f1023",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/3958b24e753f41c236fcc204302cb545a19f1023"
+      },
+      {
+        "sha": "028f9641e07af5100bcae804d684f5b3d00fc3ed",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/028f9641e07af5100bcae804d684f5b3d00fc3ed",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/028f9641e07af5100bcae804d684f5b3d00fc3ed"
+      }
+    ]
+  },
+  {
+    "sha": "028f9641e07af5100bcae804d684f5b3d00fc3ed",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjAyOGY5NjQxZTA3YWY1MTAwYmNhZTgwNGQ2ODRmNWIzZDAwZmMzZWQ=",
+    "commit": {
+      "author": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-15T23:37:15Z"
+      },
+      "committer": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-15T23:37:15Z"
+      },
+      "message": "add polish text and fix clearinterval in modal opaciti",
+      "tree": {
+        "sha": "4b72dce06f319e86ce124d15702c7b426b08e4bd",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/4b72dce06f319e86ce124d15702c7b426b08e4bd"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/028f9641e07af5100bcae804d684f5b3d00fc3ed",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/028f9641e07af5100bcae804d684f5b3d00fc3ed",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/028f9641e07af5100bcae804d684f5b3d00fc3ed",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/028f9641e07af5100bcae804d684f5b3d00fc3ed/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "74ddad68d9f9000ffa761a17557e00d679d665b2",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/74ddad68d9f9000ffa761a17557e00d679d665b2",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/74ddad68d9f9000ffa761a17557e00d679d665b2"
+      }
+    ]
+  },
+  {
+    "sha": "3958b24e753f41c236fcc204302cb545a19f1023",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjM5NThiMjRlNzUzZjQxYzIzNmZjYzIwNDMwMmNiNTQ1YTE5ZjEwMjM=",
+    "commit": {
+      "author": {
+        "name": "MalgorzataWisniewska",
+        "email": "50334377+MalgorzataWisniewska@users.noreply.github.com",
+        "date": "2019-11-15T16:42:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-11-15T16:42:44Z"
+      },
+      "message": "Merge pull request #49 from infoshareacademy/FZ12NP-31_komunikaty\n\nFz12 np 31 komunikaty",
+      "tree": {
+        "sha": "7619f30c89eca22b447a62ceec1a40d89983604a",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/7619f30c89eca22b447a62ceec1a40d89983604a"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/3958b24e753f41c236fcc204302cb545a19f1023",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdztWECRBK7hj4Ov3rIwAAdHIIAH3WbRzMkXWkZuzOLf4G872W\ng86Mq7hCFpYRiRbYRpNoK+LTuDJT0GFgYXrZ14/Za6uIKKQJY//z19Gzs4VrUp35\n6FbXBqd6Fuv2RoTfoqIQjWh2GDPCfvXloEinxtWeE4B9dlfRPEoEGnF/Z7jRmtju\nXeJ+W1fzBRSxhfWFWUV/5VI6wqakos7q3kdkEmWqUrCvms8t2+OZVAN4OUW3dxY5\nNNFYU8rk51qTyXPgQ+grnbJzR3TPz8z0mnY0al3kAXDw5bQviLaJIvR5NE1BuubA\n97/6Hc36MpvrL/gRNRTNYaJNeP+RXvI8iHjSCDsFFZHQovDlv0VvePhQ4y4uUFY=\n=fwZw\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7619f30c89eca22b447a62ceec1a40d89983604a\nparent 4b36939b604a4d9e30f50b48785711c4e9028d73\nparent 74ddad68d9f9000ffa761a17557e00d679d665b2\nauthor MalgorzataWisniewska <50334377+MalgorzataWisniewska@users.noreply.github.com> 1573836164 +0100\ncommitter GitHub <noreply@github.com> 1573836164 +0100\n\nMerge pull request #49 from infoshareacademy/FZ12NP-31_komunikaty\n\nFz12 np 31 komunikaty"
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/3958b24e753f41c236fcc204302cb545a19f1023",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/3958b24e753f41c236fcc204302cb545a19f1023",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/3958b24e753f41c236fcc204302cb545a19f1023/comments",
+    "author": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4b36939b604a4d9e30f50b48785711c4e9028d73",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/4b36939b604a4d9e30f50b48785711c4e9028d73",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/4b36939b604a4d9e30f50b48785711c4e9028d73"
+      },
+      {
+        "sha": "74ddad68d9f9000ffa761a17557e00d679d665b2",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/74ddad68d9f9000ffa761a17557e00d679d665b2",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/74ddad68d9f9000ffa761a17557e00d679d665b2"
+      }
+    ]
+  },
+  {
+    "sha": "74ddad68d9f9000ffa761a17557e00d679d665b2",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2Ojc0ZGRhZDY4ZDlmOTAwMGZmYTc2MWExNzU1N2UwMGQ2NzlkNjY1YjI=",
+    "commit": {
+      "author": {
+        "name": "DamianMilecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-15T16:30:39Z"
+      },
+      "committer": {
+        "name": "DamianMilecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-15T16:33:34Z"
+      },
+      "message": "add info box amendments",
+      "tree": {
+        "sha": "7619f30c89eca22b447a62ceec1a40d89983604a",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/7619f30c89eca22b447a62ceec1a40d89983604a"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/74ddad68d9f9000ffa761a17557e00d679d665b2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/74ddad68d9f9000ffa761a17557e00d679d665b2",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/74ddad68d9f9000ffa761a17557e00d679d665b2",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/74ddad68d9f9000ffa761a17557e00d679d665b2/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "16e8880e0e33808898953ed953d85269b40394f2",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/16e8880e0e33808898953ed953d85269b40394f2",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/16e8880e0e33808898953ed953d85269b40394f2"
+      }
+    ]
+  },
+  {
+    "sha": "16e8880e0e33808898953ed953d85269b40394f2",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjE2ZTg4ODBlMGUzMzgwODg5ODk1M2VkOTUzZDg1MjY5YjQwMzk0ZjI=",
+    "commit": {
+      "author": {
+        "name": "DamianMilecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-15T16:19:17Z"
+      },
+      "committer": {
+        "name": "DamianMilecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-15T16:19:17Z"
+      },
+      "message": "update verision merge master",
+      "tree": {
+        "sha": "6772f4212dff7995be6e35419603fa912861addb",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/6772f4212dff7995be6e35419603fa912861addb"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/16e8880e0e33808898953ed953d85269b40394f2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/16e8880e0e33808898953ed953d85269b40394f2",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/16e8880e0e33808898953ed953d85269b40394f2",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/16e8880e0e33808898953ed953d85269b40394f2/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4f8a2fe457d1039c6df544ec4870d2bc3bf607db",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/4f8a2fe457d1039c6df544ec4870d2bc3bf607db",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/4f8a2fe457d1039c6df544ec4870d2bc3bf607db"
+      },
+      {
+        "sha": "4b36939b604a4d9e30f50b48785711c4e9028d73",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/4b36939b604a4d9e30f50b48785711c4e9028d73",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/4b36939b604a4d9e30f50b48785711c4e9028d73"
+      }
+    ]
+  },
+  {
+    "sha": "4f8a2fe457d1039c6df544ec4870d2bc3bf607db",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjRmOGEyZmU0NTdkMTAzOWM2ZGY1NDRlYzQ4NzBkMmJjM2JmNjA3ZGI=",
+    "commit": {
+      "author": {
+        "name": "DamianMilecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-15T16:04:56Z"
+      },
+      "committer": {
+        "name": "DamianMilecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-15T16:04:56Z"
+      },
+      "message": "change animation for info box",
+      "tree": {
+        "sha": "81875de381cf242c65e29cc4f1716a9451ac00a7",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/81875de381cf242c65e29cc4f1716a9451ac00a7"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/4f8a2fe457d1039c6df544ec4870d2bc3bf607db",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/4f8a2fe457d1039c6df544ec4870d2bc3bf607db",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/4f8a2fe457d1039c6df544ec4870d2bc3bf607db",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/4f8a2fe457d1039c6df544ec4870d2bc3bf607db/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "39de06b60ef4413eca4b25c3693c43bab8295610",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/39de06b60ef4413eca4b25c3693c43bab8295610",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/39de06b60ef4413eca4b25c3693c43bab8295610"
+      }
+    ]
+  },
+  {
+    "sha": "4b36939b604a4d9e30f50b48785711c4e9028d73",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjRiMzY5MzliNjA0YTRkOWUzMGY1MGI0ODc4NTcxMWM0ZTkwMjhkNzM=",
+    "commit": {
+      "author": {
+        "name": "DamianMilecki",
+        "email": "53488157+DamianMilecki@users.noreply.github.com",
+        "date": "2019-11-15T16:03:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-11-15T16:03:09Z"
+      },
+      "message": "Merge pull request #48 from infoshareacademy/FZ12NP-14a\n\npolish version of instruction modal and nick modal completed",
+      "tree": {
+        "sha": "b195a66bde70a5dbcd41f88a54c1ac99a70308a1",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/b195a66bde70a5dbcd41f88a54c1ac99a70308a1"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/4b36939b604a4d9e30f50b48785711c4e9028d73",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdzsw9CRBK7hj4Ov3rIwAAdHIIAAYwsBfD6ZMkrUJRbqeX56DX\nEPIJH4bYJcPoJBxetCnusoCGjZeLHbz917CbmOfuM6URMKfmcW36JKpFYfPXDGOa\nyn+5J2V78WsSWYwlJRB7xjl9vMcWW8wQoDher94vHdKoUNnyLxwkk8cghc9Kgxhv\nx2TqGzJ74XlO3meS0FDte62o1+xTYnJ8/cJNzeuElwkNjAjz7jqhLUievK1kyxHi\ngh8MfqvtF/0xh5KG38SKY3/Be15HKz8YrMfxQTiMkFdWAXSGxB+cQRsneHq3bNVU\nGaaETGtpZFIl4W+0zUNj3okvbHHcmbPAdmr2EDzEvgayLmAjHLPEX4AU4A6CdMs=\n=y1rm\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b195a66bde70a5dbcd41f88a54c1ac99a70308a1\nparent a67231671cd364703bfeac28ad040aa7ed3e5652\nparent 8dab0f1636313bbcd73a0be9339a0331d6accf37\nauthor DamianMilecki <53488157+DamianMilecki@users.noreply.github.com> 1573833789 +0100\ncommitter GitHub <noreply@github.com> 1573833789 +0100\n\nMerge pull request #48 from infoshareacademy/FZ12NP-14a\n\npolish version of instruction modal and nick modal completed"
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/4b36939b604a4d9e30f50b48785711c4e9028d73",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/4b36939b604a4d9e30f50b48785711c4e9028d73",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/4b36939b604a4d9e30f50b48785711c4e9028d73/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a67231671cd364703bfeac28ad040aa7ed3e5652",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/a67231671cd364703bfeac28ad040aa7ed3e5652",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/a67231671cd364703bfeac28ad040aa7ed3e5652"
+      },
+      {
+        "sha": "8dab0f1636313bbcd73a0be9339a0331d6accf37",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/8dab0f1636313bbcd73a0be9339a0331d6accf37",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/8dab0f1636313bbcd73a0be9339a0331d6accf37"
+      }
+    ]
+  },
+  {
+    "sha": "8dab0f1636313bbcd73a0be9339a0331d6accf37",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjhkYWIwZjE2MzYzMTNiYmNkNzNhMGJlOTMzOWEwMzMxZDZhY2NmMzc=",
+    "commit": {
+      "author": {
+        "name": "MalgorzataWisniewska",
+        "email": "mwisniewska@interia.eu",
+        "date": "2019-11-15T15:54:24Z"
+      },
+      "committer": {
+        "name": "MalgorzataWisniewska",
+        "email": "mwisniewska@interia.eu",
+        "date": "2019-11-15T15:54:24Z"
+      },
+      "message": "polish version of instruction modal and nick modal completed",
+      "tree": {
+        "sha": "b195a66bde70a5dbcd41f88a54c1ac99a70308a1",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/b195a66bde70a5dbcd41f88a54c1ac99a70308a1"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/8dab0f1636313bbcd73a0be9339a0331d6accf37",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/8dab0f1636313bbcd73a0be9339a0331d6accf37",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/8dab0f1636313bbcd73a0be9339a0331d6accf37",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/8dab0f1636313bbcd73a0be9339a0331d6accf37/comments",
+    "author": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a67231671cd364703bfeac28ad040aa7ed3e5652",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/a67231671cd364703bfeac28ad040aa7ed3e5652",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/a67231671cd364703bfeac28ad040aa7ed3e5652"
+      }
+    ]
+  },
+  {
+    "sha": "39de06b60ef4413eca4b25c3693c43bab8295610",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjM5ZGUwNmI2MGVmNDQxM2VjYTRiMjVjMzY5M2M0M2JhYjgyOTU2MTA=",
+    "commit": {
+      "author": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-14T23:27:51Z"
+      },
+      "committer": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-14T23:27:51Z"
+      },
+      "message": "add class infoBox",
+      "tree": {
+        "sha": "a3012aadbf6a527c8efa2b3bf866f91acce58155",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/a3012aadbf6a527c8efa2b3bf866f91acce58155"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/39de06b60ef4413eca4b25c3693c43bab8295610",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/39de06b60ef4413eca4b25c3693c43bab8295610",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/39de06b60ef4413eca4b25c3693c43bab8295610",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/39de06b60ef4413eca4b25c3693c43bab8295610/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8d75e2e31700419d7f1299fd1d9d306d43c24169",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/8d75e2e31700419d7f1299fd1d9d306d43c24169",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/8d75e2e31700419d7f1299fd1d9d306d43c24169"
+      }
+    ]
+  },
+  {
+    "sha": "8d75e2e31700419d7f1299fd1d9d306d43c24169",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjhkNzVlMmUzMTcwMDQxOWQ3ZjEyOTlmZDFkOWQzMDZkNDNjMjQxNjk=",
+    "commit": {
+      "author": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-13T23:07:26Z"
+      },
+      "committer": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-13T23:07:26Z"
+      },
+      "message": "initial code for info box",
+      "tree": {
+        "sha": "f284eea0a0e3379be42174f67e88b7d6aeee00ca",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/f284eea0a0e3379be42174f67e88b7d6aeee00ca"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/8d75e2e31700419d7f1299fd1d9d306d43c24169",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/8d75e2e31700419d7f1299fd1d9d306d43c24169",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/8d75e2e31700419d7f1299fd1d9d306d43c24169",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/8d75e2e31700419d7f1299fd1d9d306d43c24169/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4084c02e8ba8ab8cb5935fd1f7e2906665d47c05",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/4084c02e8ba8ab8cb5935fd1f7e2906665d47c05",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/4084c02e8ba8ab8cb5935fd1f7e2906665d47c05"
+      }
+    ]
+  },
+  {
+    "sha": "4084c02e8ba8ab8cb5935fd1f7e2906665d47c05",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjQwODRjMDJlOGJhOGFiOGNiNTkzNWZkMWY3ZTI5MDY2NjVkNDdjMDU=",
+    "commit": {
+      "author": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-12T22:23:52Z"
+      },
+      "committer": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-12T22:23:52Z"
+      },
+      "message": "calibrate speed game",
+      "tree": {
+        "sha": "ced0503ae4a4fcd9ebbbed88bedd6f6432167a88",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/ced0503ae4a4fcd9ebbbed88bedd6f6432167a88"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/4084c02e8ba8ab8cb5935fd1f7e2906665d47c05",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/4084c02e8ba8ab8cb5935fd1f7e2906665d47c05",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/4084c02e8ba8ab8cb5935fd1f7e2906665d47c05",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/4084c02e8ba8ab8cb5935fd1f7e2906665d47c05/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a67231671cd364703bfeac28ad040aa7ed3e5652",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/a67231671cd364703bfeac28ad040aa7ed3e5652",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/a67231671cd364703bfeac28ad040aa7ed3e5652"
+      }
+    ]
+  },
+  {
+    "sha": "a67231671cd364703bfeac28ad040aa7ed3e5652",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OmE2NzIzMTY3MWNkMzY0NzAzYmZlYWMyOGFkMDQwYWE3ZWQzZTU2NTI=",
+    "commit": {
+      "author": {
+        "name": "DamianMilecki",
+        "email": "53488157+DamianMilecki@users.noreply.github.com",
+        "date": "2019-11-10T19:51:12Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-11-10T19:51:12Z"
+      },
+      "message": "Merge pull request #47 from infoshareacademy/FZ12NP-15\n\ninstruction modal corrected",
+      "tree": {
+        "sha": "e48d5c896a61291f60d0f3fac3aee2dfd3916f80",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/e48d5c896a61291f60d0f3fac3aee2dfd3916f80"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/a67231671cd364703bfeac28ad040aa7ed3e5652",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdyGowCRBK7hj4Ov3rIwAAdHIIAGFgZ9NcHOnvbyhQAO/eRnES\nKz5+Ajo+mFt3xw2C4dMUVk/xI0xURLZK/Ceuxg3w4137L+zx3ZF0yU33Dn3cwqIg\nZmWAp/2Fwos8Q0oM+miY1qlKbQgRGbARXTSSGbx1ztorj9UFDB52wQ+sv2OVjpFM\n78TOvPpF2k4pdroivntz6LA3GrPlbgm4jcCTFZkzZ7FVvnbw0cRHvGXzRR6aIO61\nKYWyMPqVJAmrrvPFqP0ArRrmZ0F/eGr7VBGtoqpnob+zmZnGZEL266CMaXomoIDE\nZFegbuEQiJ1e85V6A7r3nEqAckJo2S9zfMJ0vLjwgtsb2cUMgR1L6viQlzmWUwg=\n=MPWp\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e48d5c896a61291f60d0f3fac3aee2dfd3916f80\nparent 6bfd18d71e7bde685ab2c079179880c8dcd8214b\nparent e7d4c6357c6f9bb647f49e9c9f133394a6254a20\nauthor DamianMilecki <53488157+DamianMilecki@users.noreply.github.com> 1573415472 +0100\ncommitter GitHub <noreply@github.com> 1573415472 +0100\n\nMerge pull request #47 from infoshareacademy/FZ12NP-15\n\ninstruction modal corrected"
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/a67231671cd364703bfeac28ad040aa7ed3e5652",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/a67231671cd364703bfeac28ad040aa7ed3e5652",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/a67231671cd364703bfeac28ad040aa7ed3e5652/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6bfd18d71e7bde685ab2c079179880c8dcd8214b",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/6bfd18d71e7bde685ab2c079179880c8dcd8214b",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/6bfd18d71e7bde685ab2c079179880c8dcd8214b"
+      },
+      {
+        "sha": "e7d4c6357c6f9bb647f49e9c9f133394a6254a20",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/e7d4c6357c6f9bb647f49e9c9f133394a6254a20",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/e7d4c6357c6f9bb647f49e9c9f133394a6254a20"
+      }
+    ]
+  },
+  {
+    "sha": "e7d4c6357c6f9bb647f49e9c9f133394a6254a20",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OmU3ZDRjNjM1N2M2ZjliYjY0N2Y0OWU5YzlmMTMzMzk0YTYyNTRhMjA=",
+    "commit": {
+      "author": {
+        "name": "MalgorzataWisniewska",
+        "email": "mwisniewska@interia.eu",
+        "date": "2019-11-10T19:48:05Z"
+      },
+      "committer": {
+        "name": "MalgorzataWisniewska",
+        "email": "mwisniewska@interia.eu",
+        "date": "2019-11-10T19:48:05Z"
+      },
+      "message": "instruction modal corrected",
+      "tree": {
+        "sha": "c233cdb23812a96581f4955e25bf0d2689000e05",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/c233cdb23812a96581f4955e25bf0d2689000e05"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/e7d4c6357c6f9bb647f49e9c9f133394a6254a20",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/e7d4c6357c6f9bb647f49e9c9f133394a6254a20",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/e7d4c6357c6f9bb647f49e9c9f133394a6254a20",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/e7d4c6357c6f9bb647f49e9c9f133394a6254a20/comments",
+    "author": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2673690662903845d5dee720c2a8ea47c4e4f463",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/2673690662903845d5dee720c2a8ea47c4e4f463",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/2673690662903845d5dee720c2a8ea47c4e4f463"
+      }
+    ]
+  },
+  {
+    "sha": "6bfd18d71e7bde685ab2c079179880c8dcd8214b",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjZiZmQxOGQ3MWU3YmRlNjg1YWIyYzA3OTE3OTg4MGM4ZGNkODIxNGI=",
+    "commit": {
+      "author": {
+        "name": "MalgorzataWisniewska",
+        "email": "50334377+MalgorzataWisniewska@users.noreply.github.com",
+        "date": "2019-11-10T19:46:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-11-10T19:46:01Z"
+      },
+      "message": "Merge pull request #46 from infoshareacademy/FZ12NP-34-35-36\n\nchange cookis add",
+      "tree": {
+        "sha": "106bda84e441fd5bce30ce63c576cf6f290f9e18",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/106bda84e441fd5bce30ce63c576cf6f290f9e18"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/6bfd18d71e7bde685ab2c079179880c8dcd8214b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdyGj5CRBK7hj4Ov3rIwAAdHIIACZEqVIBAyQqtMhaPxWkD90j\nYjPxSvXISeMfRim5L7LlTPDWwz0qnyVZUvko51T4VXo4BmP/TRpUdn1Ud7K45cQX\n+KjKh7RT0kTcWf5WEZL46G6YW5BpV5EKAZaItqCev0OWSmsoCtvl3ffI9POHb1KK\nnwpdTD+72gK4UbPzYYblbkdWrOtbsLgFaiAlRKejIrJMtg2Dp7ku3Vwk6rZA9qYG\nbNhoi1NlPnv9BH11Si+T5ytcuykNbFs2HfoiTxN1z+l2wDhd+1ES8IgSexSg6bnq\nRRDCC7BTTU7dMURRgrTt5V9UfnB8WlE69BWVfvQL7+c4OGBqCMWqhXl2bXGOZHM=\n=BxU4\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 106bda84e441fd5bce30ce63c576cf6f290f9e18\nparent 2673690662903845d5dee720c2a8ea47c4e4f463\nparent 8ad63f66c051c99705d90b9410986f35e550a3d1\nauthor MalgorzataWisniewska <50334377+MalgorzataWisniewska@users.noreply.github.com> 1573415161 +0100\ncommitter GitHub <noreply@github.com> 1573415161 +0100\n\nMerge pull request #46 from infoshareacademy/FZ12NP-34-35-36\n\nchange cookis add"
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/6bfd18d71e7bde685ab2c079179880c8dcd8214b",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/6bfd18d71e7bde685ab2c079179880c8dcd8214b",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/6bfd18d71e7bde685ab2c079179880c8dcd8214b/comments",
+    "author": {
+      "login": "MalgorzataWisniewska",
+      "id": 50334377,
+      "node_id": "MDQ6VXNlcjUwMzM0Mzc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50334377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MalgorzataWisniewska",
+      "html_url": "https://github.com/MalgorzataWisniewska",
+      "followers_url": "https://api.github.com/users/MalgorzataWisniewska/followers",
+      "following_url": "https://api.github.com/users/MalgorzataWisniewska/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MalgorzataWisniewska/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MalgorzataWisniewska/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MalgorzataWisniewska/subscriptions",
+      "organizations_url": "https://api.github.com/users/MalgorzataWisniewska/orgs",
+      "repos_url": "https://api.github.com/users/MalgorzataWisniewska/repos",
+      "events_url": "https://api.github.com/users/MalgorzataWisniewska/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MalgorzataWisniewska/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2673690662903845d5dee720c2a8ea47c4e4f463",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/2673690662903845d5dee720c2a8ea47c4e4f463",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/2673690662903845d5dee720c2a8ea47c4e4f463"
+      },
+      {
+        "sha": "8ad63f66c051c99705d90b9410986f35e550a3d1",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/8ad63f66c051c99705d90b9410986f35e550a3d1",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/8ad63f66c051c99705d90b9410986f35e550a3d1"
+      }
+    ]
+  },
+  {
+    "sha": "8ad63f66c051c99705d90b9410986f35e550a3d1",
+    "node_id": "MDY6Q29tbWl0MjAwNDg1MTA2OjhhZDYzZjY2YzA1MWM5OTcwNWQ5MGI5NDEwOTg2ZjM1ZTU1MGEzZDE=",
+    "commit": {
+      "author": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-10T19:44:17Z"
+      },
+      "committer": {
+        "name": "Damian Milecki",
+        "email": "damian.milecki@gmail.com",
+        "date": "2019-11-10T19:44:17Z"
+      },
+      "message": "change cookis add",
+      "tree": {
+        "sha": "106bda84e441fd5bce30ce63c576cf6f290f9e18",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/trees/106bda84e441fd5bce30ce63c576cf6f290f9e18"
+      },
+      "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/git/commits/8ad63f66c051c99705d90b9410986f35e550a3d1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/8ad63f66c051c99705d90b9410986f35e550a3d1",
+    "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/8ad63f66c051c99705d90b9410986f35e550a3d1",
+    "comments_url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/8ad63f66c051c99705d90b9410986f35e550a3d1/comments",
+    "author": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "DamianMilecki",
+      "id": 53488157,
+      "node_id": "MDQ6VXNlcjUzNDg4MTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53488157?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DamianMilecki",
+      "html_url": "https://github.com/DamianMilecki",
+      "followers_url": "https://api.github.com/users/DamianMilecki/followers",
+      "following_url": "https://api.github.com/users/DamianMilecki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DamianMilecki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DamianMilecki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DamianMilecki/subscriptions",
+      "organizations_url": "https://api.github.com/users/DamianMilecki/orgs",
+      "repos_url": "https://api.github.com/users/DamianMilecki/repos",
+      "events_url": "https://api.github.com/users/DamianMilecki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DamianMilecki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d1f165c7a35477f5f61394cef22f0830b24703ae",
+        "url": "https://api.github.com/repos/infoshareacademy/jfdz12-no-problem/commits/d1f165c7a35477f5f61394cef22f0830b24703ae",
+        "html_url": "https://github.com/infoshareacademy/jfdz12-no-problem/commit/d1f165c7a35477f5f61394cef22f0830b24703ae"
+      }
+    ]
+  }
+]
