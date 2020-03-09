@@ -3,18 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import firebase from "firebase";
+import firebase from 'firebase';
 
- const firebaseConfig = {
-    apiKey: "AIzaSyDq37eIk0OHSDWXQxiIamwCRTgjKS80lfE",
-    authDomain: "reast-api-b141b.firebaseapp.com",
-    databaseURL: "https://reast-api-b141b.firebaseio.com",
-    projectId: "reast-api-b141b",
-    storageBucket: "reast-api-b141b.appspot.com",
-    messagingSenderId: "68268595687",
-    appId: "1:68268595687:web:4fedea77269e1eb4efc542"
-};
+var firebaseConfig = {
+    apiKey: "AIzaSyCZpkhY-UUq27S_GferQx06LjUSvoCHXrk",
+    authDomain: "fantasyapp-9473b.firebaseapp.com",
+    databaseURL: "https://fantasyapp-9473b.firebaseio.com",
+    projectId: "fantasyapp-9473b",
+    storageBucket: "fantasyapp-9473b.appspot.com",
+    messagingSenderId: "521438178228",
+    appId: "1:521438178228:web:3970e009265778728b60e1",
+    measurementId: "G-EP1ZJ1HTXV"
+  };
   // Initialize Firebase
+  
 firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(<App />, document.getElementById('root'));
