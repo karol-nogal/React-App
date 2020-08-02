@@ -1,10 +1,7 @@
-React app using redux and json-server imitating backend. Unfortunetly gh pages does not support backend servers so those two will be off. 
+
 
 ## Available Scripts
 
-In the project directory, you can run:
-### `npx json-server --watch db.json`
- to run backend json-server containing all the data for shop and movie list
 ### `npm start`
 
 Runs the app in the development mode.<br />
