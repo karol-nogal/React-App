@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-App/static/css/main.85217fed.chunk.css",
+    "main.js": "/React-App/static/js/main.3e272f91.chunk.js",
+    "main.js.map": "/React-App/static/js/main.3e272f91.chunk.js.map",
+    "runtime-main.js": "/React-App/static/js/runtime-main.2a89a368.js",
+    "runtime-main.js.map": "/React-App/static/js/runtime-main.2a89a368.js.map",
+    "static/css/2.2643f009.chunk.css": "/React-App/static/css/2.2643f009.chunk.css",
+    "static/js/2.7d148d64.chunk.js": "/React-App/static/js/2.7d148d64.chunk.js",
+    "static/js/2.7d148d64.chunk.js.map": "/React-App/static/js/2.7d148d64.chunk.js.map",
+    "index.html": "/React-App/index.html",
+    "precache-manifest.1b18914120f66a234c90cc5472e4108e.js": "/React-App/precache-manifest.1b18914120f66a234c90cc5472e4108e.js",
+    "service-worker.js": "/React-App/service-worker.js",
+    "static/css/2.2643f009.chunk.css.map": "/React-App/static/css/2.2643f009.chunk.css.map",
+    "static/css/main.85217fed.chunk.css.map": "/React-App/static/css/main.85217fed.chunk.css.map",
+    "static/media/friends.png": "/React-App/static/media/friends.b2d0a21a.png",
+    "static/media/join.png": "/React-App/static/media/join.d9944d04.png",
+    "static/media/open.png": "/React-App/static/media/open.00f4e123.png",
+    "static/media/spot.png": "/React-App/static/media/spot.5c30946c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a89a368.js",
+    "static/css/2.2643f009.chunk.css",
+    "static/js/2.7d148d64.chunk.js",
+    "static/css/main.85217fed.chunk.css",
+    "static/js/main.3e272f91.chunk.js"
+  ]
+}

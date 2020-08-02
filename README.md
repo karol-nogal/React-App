@@ -1,5 +1,5 @@
 
-
+Not finished App allowing you to find peaple and place to play board games with :)
 ## Available Scripts
 
 ### `npm start`
